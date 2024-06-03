@@ -1,0 +1,323 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;  /*el contenido que se sale de los límites del elemento se ocultará */
+}
+#menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #3f3f3f;
+}
+#menu button{
+    font-size: 18px;
+    font-weight: 500;
+}
+carousel-inner{
+    max-height: 35rem;
+}
+#imagen4{
+    width: 180px;
+    height: 160px;
+}
+.mi-clase{
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+.servicio-fila {
+      width: 100% !important;
+      text-align: center;
+  }
+#mapa_miami{
+    width: 100%;
+    height: 350px;
+}
+*/
+#local{
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+}
+.wrapper{
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.border-right {
+    border-right: 2px solid #030f42;
+}
+/*footer*/
+.fondo{
+    background-color: #030f42;
+}
+.social-icon{    
+    font-size: 2rem;             
+    margin-right: 2rem;
+}
+
+@media (max-width: 768px){
+    #intro #equipo{
+        width: 90% !important;      
+     }
+    .social-icon {
+        font-size: 1.0rem;          
+        margin-right: 0.5rem;
+    }
+
+    #equipo p{
+        display: none;
+    }
+    .servicio-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    .contacta-nosotros{
+        text-align: center;
+        }
+   
+}
+@media (max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    #equipo img {
+        width: 280px;
+        height: 130px;
+    }
+    
+}
+@media (max-width: 1200px){
+    #local{
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .wrapper{
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+
+    }
+}
+
+/* Contacto*/
+.contacto{
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+/*Compromiso*/
+.compromiso{
+    font-style: italic;
+    margin-top: 80px;
+    margin-bottom: 00px;
+}
+
+.compromiso1 {
+    font-style: italic;
+    margin-top: 40px;
+}
+
+hr {
+    height: 5px;
+    background-color: rgb(10, 104, 41);
+    margin: 20px 0;
+    max-width: 200px;
+    margin: 20px auto 0 auto;
+    }
+    
+
+/* Formulario */
+
+h2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px ;
+    font-weight: 500;
+}
+.formulario{
+    
+    background-color: #f4f4f4;
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../img/slide1.jpg') no-repeat center center/cover;
+    position: relative;        
+}
+.formulario::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, 0.6);
+     /* Oscurece la imagen */
+     z-index: 1;
+}
+
+.form-container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 500px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .form-container h2 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .form-container label {
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .form-container input,
+    .form-container select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .form-container button {
+        width: 100%;
+        padding: 10px;
+        background-color: #28a745;
+        border: none;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    .form-container button:hover {
+        background-color: #218838;
+    }
+
+    /* Nosotros*/
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.banner {
+   
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../img/equipo2.jpg') no-repeat center center/cover;
+    position: relative;
+    color: white;
+    padding: -320px 20px;
+    text-align: center;
+}
+.about-section{
+    padding: 40px 0;
+}
+    
+.about-section img {
+    max-width: 100%;
+    margin-top: 80px;
+    margin-right: 0;
+   
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Oscurece la imagen */
+}
+.banner h1 {
+    margin: 0;
+    font-size: 35px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+.container1 {
+    background-color: #dae5f5;
+    padding: 20px;
+    max-width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 10;
+    /* Para superponer el contenido sobre el banner */
+}
+
+.container1 h2 {
+    margin-top: 0;
+}
+
+/*Acordeón*/
+.acordeon {
+    width: 800px;
+    margin: 0 auto;   
+    
+}
+
+.pregunta {
+    background-color: #f0f0f0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.respuesta {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
+    
+}
+
+.pregunta.activo .respuesta {
+    display: block;
+}
+.transp{
+    color:#333;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: rgb(187, 195, 206);
+    padding: 10px 0;
+}
+.respuest{
+    color:rgb(90, 83, 83);
+    font-size: 18px;
+    font-style: italic;
+}
+
+/*responsive acordeon*/
+@media screen and (max-width: 768px) {
+    .acordeon {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+    }
+
+    .pregunta {
+        padding: 20px;
+    }
+
+    .respuesta {
+        padding: 20px;
+    }
+}
